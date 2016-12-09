@@ -1,0 +1,82 @@
+/* Add your CSS below */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+/* Example: adding a background color to the HTML body */
+body {
+  /* #ccc is shorthand HEX for a light grey */
+    background-image:url("../images/spacebg2.png");
+    background-color: #191921;
+}
+.hello{
+    font-size: 60px;
+    margin: 0;
+    margin-top: 100px;
+    color: #64f8ec;
+}
+.welcome{
+    font-size: 23px;
+    margin: 0;
+    color: white;
+    margin-top: -170px;
+}
+.introtext{
+    color: white;
+    font-size: 1em;
+    margin-left: 10%;
+    margin-top: 3%;
+    margin-right: 10%;
+}
+.hello, .welcome{
+    text-align:center;
+    padding: 100px;
+    font-family: "Franklin Gothic Medium", Times, serif;
+}
+.nav{
+    float: right;
+    color: white;
+    margin-top: -75px;
+}
+.logo{
+    float: left;
+    margin-top: -85px;
+}
+li{
+    display:inline;
+    padding: 5px;
+}
+
+.textbox{
+    background-color: #191921;
+    color: white;
+    position: relative;
+    height: 500px;
+    clear:both;
+    margin:0;
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow-x: hidden;
+    font-family: "Open Sans", serif;
+    
+}
+.contactbox{
+    background-color: #191921;
+    color: white;
+    position: relative;
+    height: 500px;
+    clear:both;
+    margin:0;
+    padding: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow-x: hidden;
+    font-family: "Open Sans", serif;
+    
+}
+.socialmedia{
+    float: right;
+}
+.chris{
+    height: 100px;
+    width: 100px;
+}
