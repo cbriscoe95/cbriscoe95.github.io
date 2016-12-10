@@ -47,8 +47,8 @@ li{
     padding: 5px;
 */
 }
-
-@media screen and (min-width : 800px) {
+/*iPhone 6+ Portrait width*/
+@media screen and (min-width : 736px) {
     li{
         display:inline;
         padding: 5px;
