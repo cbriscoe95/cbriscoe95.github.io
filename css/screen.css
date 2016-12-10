@@ -35,26 +35,54 @@ body {
     float: right;
     color: white;
     margin-top: -75px;
+    list-style: none;
 }
 .logo{
     float: left;
     margin-top: -85px;
 }
 li{
+/*
     display:inline;
     padding: 5px;
+*/
 }
+
+@media screen and (min-width : 800px) {
+    li{
+        display:inline;
+        padding: 5px;
+    }
+        .socialmedia{
+        float: right;
+    }
+}
+
 
 .textbox{
     background-color: #191921;
     color: white;
     position: relative;
-    height: 500px;
+    height: 490px;
     clear:both;
     margin:0;
     padding: 10px;
     padding-left: 20%;
     padding-right: 20%;
+    overflow-x: hidden;
+    font-family: "Open Sans", serif;
+    
+}
+.blogtextbox{
+    background-color: #191921;
+    color: white;
+    position: relative;
+    height: 1220px;
+    clear:both;
+    margin:0;
+    padding: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
     overflow-x: hidden;
     font-family: "Open Sans", serif;
     
@@ -63,8 +91,7 @@ li{
     background-color: #191921;
     color: white;
     position: relative;
-    height: 500px;
-    clear:both;
+    height: 400px;
     margin:0;
     padding: 10px;
     padding-left: 20%;
@@ -72,11 +99,4 @@ li{
     overflow-x: hidden;
     font-family: "Open Sans", serif;
     
-}
-.socialmedia{
-    float: right;
-}
-.chris{
-    height: 100px;
-    width: 100px;
 }
