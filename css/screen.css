@@ -101,7 +101,7 @@ li{
     
 }
 
-@media screen and (max-width: 736px){
+@media screen and (max-width: 800px){
     .blogtextbox{
     background-color: #191921;
     color: white;
