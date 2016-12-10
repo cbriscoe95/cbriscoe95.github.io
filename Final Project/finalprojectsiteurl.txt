@@ -1,0 +1,6 @@
+cbriscoe95.github.io
+
+(For some reason my site isn't updating on my desktop but does on my phone. hopefully you see the updated site. If you look at the cbriscoe.github.io repository you can see that the image on
+the work.html is the resume.png which is included in my images folder.)
+
+Final Site files located in cbriscoe95.github.io repository
