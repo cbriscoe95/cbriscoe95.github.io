@@ -100,3 +100,21 @@ li{
     font-family: "Open Sans", serif;
     
 }
+
+@media screen and (max-width: 736px){
+    .blogtextbox{
+    background-color: #191921;
+    color: white;
+    position: relative;
+    height: 1220px;
+    clear:both;
+    margin:0;
+    padding: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    overflow-x: hidden;
+    font-family: "Open Sans", serif;    
+    min-width: 300px;
+}
+}
+
